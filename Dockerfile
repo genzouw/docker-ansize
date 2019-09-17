@@ -16,5 +16,5 @@ RUN apt-get update \
 
 RUN go get github.com/jhchen/ansize
 
-# ADD ./docker-entrypoint.sh /
-# ENTRYPOINT ["/docker-entrypoint.sh"]
+ADD ./docker-entrypoint.sh /
+ENTRYPOINT ["/docker-entrypoint.sh"]
