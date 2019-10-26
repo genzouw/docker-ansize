@@ -1,5 +1,3 @@
 #!/bin/sh
 
-TMP=$(mktemp)
-
-/go/bin/ansize /dev/stdin ${TMP} "${@}"
+/go/bin/ansize /dev/stdin /dev/null "$@" | sed 's/m1/m0/g'
