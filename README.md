@@ -1,5 +1,10 @@
 # Docker Ansize
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/genzouw/ansize.svg?style=for-the-badge)](https://hub.docker.com/r/genzouw/ansize/)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/genzouw/ansize.svg?style=for-the-badge)](https://hub.docker.com/r/genzouw/ansize/)
+
+[![dockeri.co](https://dockeri.co/image/genzouw/ansize)](https://hub.docker.com/r/genzouw/ansize)
+
 ## Description
 
 Convert image to text(ascii art).
