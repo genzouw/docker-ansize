@@ -9,6 +9,6 @@ RUN apk add \
 
 RUN go get github.com/jhchen/ansize
 
-ADD ./docker-entrypoint.sh /
+COPY ./docker-entrypoint.sh /
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
