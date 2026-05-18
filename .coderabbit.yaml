@@ -1,0 +1,5 @@
+language: "ja"
+reviews:
+  tone_instructions: "技術的に正確で、丁寧な敬語（です・ます調）で回答してください。"
+  summary:
+    poem: false
