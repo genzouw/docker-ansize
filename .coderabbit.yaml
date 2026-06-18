@@ -8,6 +8,14 @@ enable_free_tier: true
 tone_instructions: "技術的かつ丁寧なトーンでコメントしてください。専門的な表現を用いつつも、建設的でわかりやすいフィードバックを心がけてください。"
 
 reviews:
+  planning:
+    enabled: true
+    auto_planning:
+      enabled: true
+      labels:
+        - feature
+        - enhancement
+        - bug
   # ansize (画像→ASCII アート) を同梱した OSS Docker イメージを配布しているリポジトリのため、利用者環境への影響を取りこぼしたくない。
   # "assertive" で検出感度を高めに保ち、ノイズが過剰になった場合は "chill" に戻すことも検討する。
   profile: "assertive"
@@ -87,4 +95,10 @@ chat:
   auto_reply: true
 
 knowledge_base:
+  web_search:
+    enabled: true
   opt_out: false
+
+issue_enrichment:
+  auto_enrich:
+    enabled: true
