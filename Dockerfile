@@ -5,9 +5,7 @@ LABEL maintainer "genzouw <genzouw@gmail.com>"
 RUN apk add \
   --no-cache \
   git \
-  ;
-
-RUN go get github.com/jhchen/ansize
+  && go get github.com/jhchen/ansize
 
 COPY ./docker-entrypoint.sh /
 
