@@ -1,4 +1,4 @@
-FROM golang:1.13.3-alpine3.10
+FROM golang:1.13.11-alpine3.10
 
 LABEL maintainer "genzouw <genzouw@gmail.com>"
 
