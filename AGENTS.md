@@ -49,7 +49,7 @@
 ### 1.3 MAY — 採用してよい構成
 
 - **MAY**: GitHub Marketplace の「公開 OSS リポジトリ向け完全無料プラン」で提供される Action / App。
-- **MAY**: GitHub App の「公開 OSS リポジトリ向け完全無料枠」で、API キーの登録が不要なもの (例: CodeRabbit の OSS 無料枠)。
+- **MAY**: カード登録・API キー登録が不要で、利用上限に達しても課金されず機能停止するだけの GitHub App 無料プラン (例: CodeRabbit の OSS 無料枠)。1.1 の「レート制限到達時に課金が始まる "無料枠"」とは異なり、上限到達時に課金が発生しないことが条件。
 - **MAY**: 完全無料で配布されている GitHub Action (Marketplace 登録の有無は問わない)。
 - **MAY**: ローカル LLM (Ollama / llama.cpp 等) を GitHub-hosted runner 上で動作させる、Secrets 不要の自動化。
 - **MAY**: リポジトリ内で完結するスクリプト / Make ターゲット (外部 SaaS 連携を伴わないもの)。
