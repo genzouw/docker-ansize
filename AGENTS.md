@@ -76,7 +76,7 @@
 | 従量課金 API キーを示す変数名 (`*_API_KEY` / `*_API_TOKEN` / `*_SECRET_KEY` / プロバイダ名付きの鍵・URL) | 同上 (`vars.*` や平文での指定も含む)   |
 | 課金可能な LLM / 検索 API のエンドポイントホスト名                                                       | OpenAI 互換エンドポイント経由での利用  |
 
-`secrets.*` は許可リスト方式です。本リポジトリのスタブは `allowed_secrets` を指定していないため、**`GITHUB_TOKEN` 以外の参照はすべて違反として検出** されます。
+`secrets.*` は許可リスト方式です。**`GITHUB_TOKEN` と、スタブの `allowed_secrets` に列挙した名前以外の参照は、すべて違反として検出** されます (既定では `allowed_secrets` は空です)。
 サードパーティ Action のタグ参照 (SHA 未ピン留め) は、`free-policy` ではなく `actionlint` と `zizmor` が検出します。
 
 **CI が自動検出しないもの (レビューで判断します)**
