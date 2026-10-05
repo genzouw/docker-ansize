@@ -24,4 +24,7 @@ LABEL maintainer "genzouw <genzouw@gmail.com>"
 COPY --from=builder /go/bin/ansize /go/bin/ansize
 COPY ./docker-entrypoint.sh /
 
+# 入力画像を処理するため、特権が不要な実行ユーザーに落とす
+USER nobody
+
 ENTRYPOINT ["/docker-entrypoint.sh"]
