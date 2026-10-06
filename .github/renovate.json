@@ -5,7 +5,7 @@
   "semanticCommits": "enabled",
   "semanticCommitScope": "deps",
   "timezone": "Asia/Tokyo",
-  "minimumReleaseAge": "1 day",
+  "minimumReleaseAge": "3 days",
   "minimumReleaseAgeBehaviour": "timestamp-optional",
   "prConcurrentLimit": 5,
   "labels": ["dependencies"],
