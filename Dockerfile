@@ -1,4 +1,4 @@
-FROM golang:1.27.2-alpine3.24 AS builder
+FROM golang:1.27.3-alpine3.24 AS builder
 
 # ansize は go.mod を持たないため、モジュールモードでビルドできるよう手元で初期化する
 # 上流（jhchen/ansize）は更新が止まっているため、確認済みのコミットに固定して再現性を確保する
