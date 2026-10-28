@@ -23,4 +23,4 @@ permissions:
 
 jobs:
   trivy:
-    uses: genzouw/ci-workflows/.github/workflows/trivy.yml@61b9f7e618e48b64ad38bd95a47df4398ee26668 # v1.5.34
+    uses: genzouw/ci-workflows/.github/workflows/trivy.yml@b36959c932cf608aa3fbac6ef19c98ddd177e80e # v1.5.35
