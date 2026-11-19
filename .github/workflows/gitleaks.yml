@@ -24,4 +24,4 @@ permissions:
 
 jobs:
   gitleaks:
-    uses: genzouw/ci-workflows/.github/workflows/gitleaks.yml@92575a2e96b04abef7fd4bbab0525201937ae34c # v1.5.65
+    uses: genzouw/ci-workflows/.github/workflows/gitleaks.yml@2ab508da0a6f74621e04c0d51cc3e34627414d0c # v1.5.66
